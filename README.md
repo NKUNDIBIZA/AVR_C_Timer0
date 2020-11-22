@@ -1,4 +1,4 @@
-<h1>ATmega16 Timer0 normal operation mode in C<h1>
+<h1>ATmega16 Timer0 normal operation mode in C</h1>
 </pre>Address Labels Code Comments
 $000 jmp RESET ; Reset Handler
 $002 jmp EXT_INT0 ; IRQ0 Handler
