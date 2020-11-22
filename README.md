@@ -1,7 +1,7 @@
 
-</pre>
-<h1>     ATmega16 Timer0 normal operation mode in C</h1>
+</pre><h1>     ATmega16 Timer0 normal operation mode in C</h1></pre>
 
+<p>
 Address Labels Code Comments
 $000 jmp RESET ; Reset Handler
 $002 jmp EXT_INT0 ; IRQ0 Handler
@@ -63,4 +63,4 @@ COM1:0 Define whether the OC0 pin will be cleared/toggled (These bits controls t
 
 Normal mode:
 WGM1:0 = 0. Counting direction = up. No counter clear is performed. The counter overrun after passing it Max 8-bit value (0xFF), then recount from 0x00. When TCNT0
-is rest to Zero, the TOV0 is set </pre>
+is rest to Zero, the TOV0 is set </p>
